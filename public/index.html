@@ -1,21 +1,66 @@
-<!-- public/index.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prakash Palyam | DevOps Engineer</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Prakash Palyam | Cloud & DevOps Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" /> -->
 </head>
-<body class="bg-gray-900 text-white font-sans">
+<body>
+  <header class="header">
+    <!-- <div class="container"> -->
+      <h1>Prakash Palyam</h1>
+      <p>Cloud & DevOps Engineer | AI Enthusiast</p>
+    <!-- </div> -->
+  </header>
 
-  <section class="text-center py-20">
-    <h1 class="text-4xl md:text-6xl font-bold">👋 Hi, I'm Prakash Palyam</h1>
-    <p class="mt-4 text-lg">Cloud & DevOps Engineer | Azure, AWS, Kubernetes, Terraform, Spring Boot</p>
-    <div class="mt-6">
-      <a href="projects.html" class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">View Projects</a>
+  <section class="skills">
+    <div class="container">
+      <h2>About Me</h2>
+      <li>I’m a passionate engineer focused on building secure, scalable cloud platforms using AWS, Terraform, Kubernetes, and CI/CD. Currently exploring AI integration for real-world automation and innovation.</li>
     </div>
   </section>
 
+  <section class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul>
+        <li>AWS, Azure, GCP</li>
+        <li>Terraform, Ansible, Docker, Kubernetes</li>
+        <li>CI/CD – GitHub Actions, Azure DevOps</li>
+        <li>Monitoring – Prometheus, Grafana, Splunk</li>
+        <li>Languages – Bash, Python, Java, YAML</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>3-Tier AWS Infrastructure with Terraform</h3>
+        <p>Designed and deployed a reusable infrastructure stack (VPC, NAT, EC2, RDS, ALB) using Terraform modules. CI/CD integrated with GitHub Actions.</p>
+      </div>
+      <div class="project">
+        <h3>DevOps Portfolio Hosting Platform (In Progress)</h3>
+        <p>Building a low-cost global platform to host developer portfolios using S3 + CloudFront + GitHub integration with real-time analytics.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:prakash@example.com">prakash@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/prakashpalyam" target="_blank">github.com/prakashpalyam</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Prakash Palyam. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
