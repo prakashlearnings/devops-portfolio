@@ -1,0 +1,3 @@
+Project Title: AI Startup Portfolio
+Description: Designed a professional AI developer portfolio with ChatGPT-powered features, responsive layout, and watermark branding.
+Link: https://example.com/ai-portfolio
