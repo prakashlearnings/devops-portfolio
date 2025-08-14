@@ -3,10 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  
   <title>Prakash Palyam • Cloud & DevOps Engineer</title>
-  <!-- <img src="profile.jpg" alt="Profile Picture" class="profile-pic" /> -->
   <meta name="description" content="Portfolio of Prakash Palyam — Cloud & DevOps Engineer specializing in AWS, Azure, Kubernetes, Terraform, CI/CD, and platform engineering." />
   <meta property="og:title" content="Prakash Palyam • Cloud & DevOps Engineer" />
   <meta property="og:description" content="AWS • Azure • Kubernetes • Terraform • CI/CD • Platform Engineering" />
@@ -144,14 +141,10 @@
   <header>
     <div class="wrap nav">
       <div class="brand">
-        <div>
-          <link rel="stylesheet" href="style.css">
-          <img src="profile.jpg" alt="Profile Picture" class="profile-pic" />
-        </div>
+        <div class="logo" aria-hidden="true"></div>
         <div>
           <div style="font-weight:800">Prakash Palyam</div>
           <small style="color:var(--muted)">Cloud & DevOps Engineer</small>
-          
         </div>
       </div>
       <nav aria-label="Primary">
@@ -174,15 +167,15 @@
           <h1>Building resilient cloud platforms and smooth delivery pipelines.</h1>
           <p>I design and automate infrastructure for scale. From VPCs to service meshes, from GitOps to golden paths — I ship secure, observable, highly available systems.</p>
           <div class="badges">
-            <span class="chip">AWS</span>
-            <span class="chip">Azure</span>
-            <span class="chip">k8s</span>
+            <span class="chip">AWS SAA‑C03</span>
+            <span class="chip">Azure Fundamentals</span>
+            <span class="chip">CKA — in progress</span>
             <span class="chip">Platform Engineering</span>
-            <span class="chip">Cloud Infra</span>
+            <span class="chip">Site Reliability</span>
           </div>
           <div style="display:flex; gap:12px; flex-wrap:wrap">
             <a class="cta" href="#projects">See Projects</a>
-            <a class="cta" style="background:linear-gradient(135deg, var(--accent), var(--brand));" href="./Prakash_Palyam_Resume.pdf" download>Download Resume</a>
+            <a class="cta" style="background:linear-gradient(135deg, var(--accent), var(--brand));" href="./Prakash_Palyam_Resume.pdf" download>Download Résumé</a>
           </div>
         </div>
         <div class="hero-card" aria-label="Console preview">
@@ -194,11 +187,10 @@
               <div class="term-line"><span class="term-prompt">›</span><code>vpc / subnets / nat / alb / asg / rds created ✓</code></div>
               <div class="term-line"><span class="term-prompt">$</span><code>helm upgrade --install ingress nginx/ingress-nginx \</code></div>
               <div class="term-line"><span class="term-prompt">›</span><code>controller v1.12.1 • HPA • mTLS • WAF ✓</code></div>
-              <!-- <div class="term-line"><span class="term-prompt">$</span><code>flux reconcile kustomization platform</code></div> -->
+              <div class="term-line"><span class="term-prompt">$</span><code>flux reconcile kustomization platform</code></div>
               <div class="term-line"><span class="term-prompt">›</span><code>gitops rollout • blue/green • SLO: 99.95% ✓</code></div>
               <div class="term-line"><span class="term-prompt">$</span><code>kubectl -n observability get pods</code></div>
-              <!-- <div class="term-line"><span class="term-prompt">›</span><code>prometheus • grafana • loki • tempo • alertmanager up ✓</code></div> -->
-              <div class="term-line"><span class="term-prompt">›</span><code>prometheus • grafana • alertmanager up ✓</code></div>
+              <div class="term-line"><span class="term-prompt">›</span><code>prometheus • grafana • loki • tempo • alertmanager up ✓</code></div>
             </div>
           </div>
         </div>
@@ -217,14 +209,14 @@
         <div class="grid">
           <div class="card" style="grid-column: span 7">
             <p>I’m a Cloud & DevOps Engineer with hands-on experience across <strong>AWS</strong> and <strong>Azure</strong>, specializing in <strong>Terraform/IaC</strong>, <strong>Kubernetes (AKS/EKS)</strong>, <strong>GitLab/GitHub Actions CI/CD</strong>, and <strong>observability</strong> using Prometheus & Grafana. I love crafting paved roads for developers — secure by default, fast by design.</p>
-            <p>Current focus areas: <em>platform engineering</em>, <em>CI/CD</em>, <em>service meshes</em> (Linkerd), automated SSL certificate management with Cert-Manager to ensure secure and seamless certificate lifecycle handling and <em>cost-efficient cloud solutions that scale effectively</em>.</p>
+            <p>Current focus areas: <em>platform engineering</em>, <em>GitOps</em>, <em>service meshes</em> (Linkerd), and <em>cost-efficient global static hosting at scale</em>.</p>
           </div>
           <div class="card" style="grid-column: span 5">
             <ul style="list-style:none; margin:0; padding:0">
               <li class="skill"><span>Location</span><strong>Bengaluru, India</strong></li>
-              <li class="skill"><span>Experience</span><strong>Azure, AWS, k8s, Terraform</strong></li>
+              <li class="skill"><span>Experience</span><strong>Azure, AWS, AKS, EKS</strong></li>
               <li class="skill"><span>Open to</span><strong>Remote • Hybrid • Contract</strong></li>
-              <li class="skill"><span>Interests</span><strong>Infra as Product • CI/CD</strong></li>
+              <li class="skill"><span>Interests</span><strong>Infra as Product • SRE</strong></li>
             </ul>
           </div>
         </div>
@@ -243,16 +235,16 @@
         <div class="grid">
           <div class="card" style="grid-column: span 6">
             <h3>Cloud & Containers</h3>
-            <div class="skill"><span>AWS (VPC, EC2, ALB, RDS, S3, Route 53, CloudFront, ...)</span><div class="meter" style="--val:92%"><span></span></div></div>
-            <div class="skill"><span>Azure (AKS, VNets, DNS, NSG, Azure Firewall, ACR, Monitor, ...)</span><div class="meter" style="--val:88%"><span></span></div></div>
-            <div class="skill"><span>Kubernetes, Helm, Cert-Manager, Linkerd</span><div class="meter" style="--val:90%"><span></span></div></div>
+            <div class="skill"><span>AWS (VPC, EC2, ALB, RDS, S3, Route 53, CloudFront)</span><div class="meter" style="--val:92%"><span></span></div></div>
+            <div class="skill"><span>Azure (AKS, VNets, Azure Firewall, ACR, Monitor)</span><div class="meter" style="--val:88%"><span></span></div></div>
+            <div class="skill"><span>Kubernetes, Helm, Kustomize, Linkerd</span><div class="meter" style="--val:90%"><span></span></div></div>
             <div class="skill"><span>Docker, Compose, BuildKit, Distroless</span><div class="meter" style="--val:85%"><span></span></div></div>
           </div>
           <div class="card" style="grid-column: span 6">
             <h3>Platform & Delivery</h3>
             <div class="skill"><span>Terraform & Terragrunt, IaC modules</span><div class="meter" style="--val:94%"><span></span></div></div>
-            <div class="skill"><span>CI/CD (Jenkins, ADO, GitLab, GitHub Actions, Argo/Flux)</span><div class="meter" style="--val:90%"><span></span></div></div>
-            <div class="skill"><span>Observability (Prometheus, Grafana, Splunk)</span><div class="meter" style="--val:88%"><span></span></div></div>
+            <div class="skill"><span>CI/CD (GitLab, GitHub Actions, Argo/Flux)</span><div class="meter" style="--val:90%"><span></span></div></div>
+            <div class="skill"><span>Observability (Prometheus, Grafana, Loki, Tempo)</span><div class="meter" style="--val:88%"><span></span></div></div>
             <div class="skill"><span>Security (mTLS, OIDC, Secrets Mgmt)</span><div class="meter" style="--val:82%"><span></span></div></div>
           </div>
         </div>
@@ -261,13 +253,12 @@
             <span class="tag">Linux</span>
             <span class="tag">Bash</span>
             <span class="tag">Python</span>
-            <span class="tag">Java & Spring Boot</span>
             <span class="tag">NGINX Ingress</span>
-            <!-- <span class="tag">AWS Control Tower</span> -->
+            <span class="tag">AWS Control Tower</span>
             <span class="tag">Service Catalog</span>
-            <!-- <span class="tag">Kafka</span> -->
-            
-            <span class="tag">SQL</span>
+            <span class="tag">Kafka</span>
+            <span class="tag">Redis</span>
+            <span class="tag">PostgreSQL</span>
             <span class="tag">Elastic Stack</span>
           </div>
         </div>
@@ -286,34 +277,26 @@
         </div>
         <div class="grid">
           <article class="card proj" style="grid-column: span 6">
-            <h3>Modular and Reusable 3-Tier AWS Infrastructure with Terraform</h3>
+            <h3>Reusable 3‑Tier AWS with Terraform</h3>
             <p>Terraform modules for VPC, subnets, NAT, ALB, EC2 AutoScaling, and PostgreSQL RDS. Remote state in S3 with DynamoDB locks. Blue/green release recipes.</p>
             <div class="tagz">
-              <span class="tag">Terraform</span><span class="tag">AWS</span><span class="tag">RDS</span><span class="tag">ALB</span><span class="tag">EKS</span>
-            </div>
-          </article>
-
-          <article class="card proj" style="grid-column: span 6">
-            <h3>Modular and Reusable 3-Tier Azure Infrastructure with ARM Templates and Azure DevOps Pipelines</h3>
-            <p>Terraform modules for VPC, subnets, NAT, ALB, EC2 AutoScaling, and PostgreSQL RDS. Remote state in S3 with DynamoDB locks. Blue/green release recipes.</p>
-            <div class="tagz">
-              <span class="tag">Azure</span><span class="tag">AKS</span><span class="tag">DNS</span><span class="tag">Azure Firewall</span><span class="tag">ADO</span>
+              <span class="tag">Terraform</span><span class="tag">AWS</span><span class="tag">RDS</span><span class="tag">ALB</span><span class="tag">S3 + CloudFront</span>
             </div>
           </article>
 
           <article class="card proj" style="grid-column: span 6">
             <h3>AKS with NGINX Ingress & Linkerd mTLS</h3>
-            <p>Hardened AKS baseline with managed identity, Azure Firewall, private ACR, and zero‑trust service mesh using Linkerd + viz</p>
+            <p>Hardened AKS baseline with managed identity, Azure Firewall, private ACR, and zero‑trust service mesh using Linkerd + viz, Grafana dashboards, and SLO burn‑rate alerts.</p>
             <div class="tagz">
-              <span class="tag">AKS</span><span class="tag">NGINX Ingress</span><span class="tag">Linkerd</span><span class="tag">Cert-Manager</span>
+              <span class="tag">AKS</span><span class="tag">NGINX Ingress</span><span class="tag">Linkerd</span><span class="tag">Grafana</span>
             </div>
           </article>
 
           <article class="card proj" style="grid-column: span 6">
-            <h3>Automated EKS Cluster Upgrade with Zero-Downtime Strategy</h3>
-            <p>A Bash and AWS CLI-based solution to seamlessly upgrade EKS clusters, node groups, and add-ons with pre/post validation, error handling, and minimal downtime.</p>
+            <h3>GitLab on AKS with GitOps</h3>
+            <p>Self‑hosted GitLab deployed on AKS, runners autoscaled on Spot, FluxCD for platform GitOps, sealed‑secrets for credentials, and OIDC to AWS for artifact pushes.</p>
             <div class="tagz">
-              <span class="tag">EKS</span><span class="tag">AWS</span><span class="tag">EKS addons</span><span class="tag">Automation</span>
+              <span class="tag">GitLab</span><span class="tag">AKS</span><span class="tag">FluxCD</span><span class="tag">OIDC</span>
             </div>
           </article>
 
@@ -321,7 +304,7 @@
             <h3>Low‑Cost Global Portfolio Hosting</h3>
             <p>Static hosting stack with CDN, object storage, and IaC for instant preview deployments and custom domains. Observability with synthetic checks and RUM.</p>
             <div class="tagz">
-              <span class="tag">CloudFront</span><span class="tag">Object Storage</span><span class="tag">IaC</span><span class="tag">Route 53</span>
+              <span class="tag">CDN</span><span class="tag">Object Storage</span><span class="tag">IaC</span><span class="tag">Observability</span>
             </div>
           </article>
         </div>
@@ -341,13 +324,13 @@
           <div class="card" style="grid-column: span 7">
             <div class="timeline">
               <div class="t-item">
-                <strong>Temenos — Cloud & DevOps Engineer — Azure & Aws focused</strong>
-                <div style="color:var(--muted)">March 2022 — Present</div>
-                <p>Automated Azure & Aws infra with Terraform. Deployed apps on AKS and EKS behind NGINX Ingress with WAF and Linkerd mTLS. Designed and implemented robust CI/CD pipelines using Jenkins and Azure DevOps, ensuring seamless integration and automated deployment processes.</p>
+                <strong>Cloud & DevOps Engineer — Azure focused</strong>
+                <div style="color:var(--muted)">2023 — Present</div>
+                <p>Automated Azure infra with Terraform. Deployed apps on AKS behind NGINX Ingress with WAF and Linkerd mTLS. Implemented GitOps and full‑stack observability.</p>
               </div>
               <div class="t-item">
                 <strong>Infosys — Engineer (Snowflake & Cloud)</strong>
-                <div style="color:var(--muted)">Jan 2021 - Dec 2021</div>
+                <div style="color:var(--muted)">Prior</div>
                 <p>Worked with Snowflake and cloud data tooling, enabling secure, scalable data flows and CI/CD for analytics workloads.</p>
               </div>
             </div>
@@ -362,7 +345,7 @@
             <h3 style="margin-top:16px">Highlights</h3>
             <ul style="margin:0; padding-left:18px">
               <li>Designed reusable Terraform modules consumed across environments</li>
-              <li>End‑to‑end Jenkins CI/CD with preview envs & security gates</li>
+              <li>End‑to‑end GitLab CI/CD with preview envs & security gates</li>
               <li>SRE runbooks, SLOs, and on‑call automation</li>
             </ul>
           </div>
@@ -382,15 +365,15 @@
         <div class="contact-grid">
           <div class="contact-card card">
             <h3>Email</h3>
-            <a href="mailto:prakashpalyam@example.com">prakashpalyam950@gmail.com</a>
+            <a href="mailto:prakashpalyam@example.com">prakashpalyam@example.com</a>
           </div>
           <div class="contact-card card">
             <h3>GitHub</h3>
-            <a href="https://github.com/prakashlearnings" target="_blank" rel="noopener">github profile</a>
+            <a href="https://github.com/" target="_blank" rel="noopener">github.com/your‑handle</a>
           </div>
           <div class="contact-card card">
             <h3>LinkedIn</h3>
-            <a href="https://www.linkedin.com/in/palyam-prakash-926003198/" target="_blank" rel="noopener">linkedin profile</a>
+            <a href="https://linkedin.com/in/" target="_blank" rel="noopener">linkedin.com/in/your‑handle</a>
           </div>
         </div>
       </div>
@@ -403,7 +386,7 @@
 
   <footer>
     <div class="wrap">
-      © <span id="year"></span> Prakash Palyam — A passionate and experienced developer skilled in bootstrapping infrastructure on Azure and AWS for enterprise-grade applications running on cloud platforms.
+      © <span id="year"></span> Prakash Palyam — Built with semantic HTML5, modern CSS, and a dash of ✨.
     </div>
   </footer>
 
